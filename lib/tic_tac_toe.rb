@@ -101,7 +101,7 @@ end
 
 def play(board)
   input = gets.strip
-  until over? == true
+  until over? == true && turn(count) < 9
     turn(board)
   end
 end
