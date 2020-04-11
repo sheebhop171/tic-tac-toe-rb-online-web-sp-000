@@ -100,7 +100,6 @@ def winner(board)
 end
 
 def play(board)
-  input = gets.strip
   until over?(board) != true
     turn(board)
   end
