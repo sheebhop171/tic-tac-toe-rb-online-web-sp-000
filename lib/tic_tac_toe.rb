@@ -101,6 +101,7 @@ end
 
 def play(board)
   turn(board)
-  until over?(board) == true
+  until over?(board) == true && turn_count(board) < 9
+  turn(board)
   end
 end
