@@ -104,6 +104,6 @@ def play(board)
   if winner(board) == "X"
     puts "Congratulations X!"
   else
-    puts "Congraluations O!"
+    puts "Congratulations O!"
   end
 end
