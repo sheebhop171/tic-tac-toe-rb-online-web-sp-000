@@ -101,7 +101,7 @@ end
 
 def play(board)
   input = gets.strip
-  until over? != true
+  until over?(board) 
     turn(board)
   end
 end
