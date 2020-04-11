@@ -101,6 +101,6 @@ end
 
 def play(board)
   turn(board)
-  until over?(board) != true
+  until over?(board) == true
   end
 end
