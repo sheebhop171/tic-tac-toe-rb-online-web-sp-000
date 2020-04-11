@@ -100,5 +100,5 @@ def winner(board)
 end
 
 def play(board)
-  turn(board) until over?(board) 
+  turn(board) until over?(board)
 end
