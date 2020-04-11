@@ -101,7 +101,5 @@ end
 
 def play(board)
   input = gets.strip
-  if over?
-  else
-  end
+  over?
 end
