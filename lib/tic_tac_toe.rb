@@ -21,6 +21,7 @@ def input_to_index(user_input)
   return user_input = user_input.to_i - 1
 end
 
-def move(board)
- return board
+def move(board, position, token)
+  index = position-1
+  board[index]=token 
 end
