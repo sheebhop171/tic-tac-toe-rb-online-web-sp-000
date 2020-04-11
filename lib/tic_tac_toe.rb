@@ -26,6 +26,13 @@ def move(board, position, token)
   board[index] = token
 end
 
+def valid_move?(board,index)
+ if index.between?(0,8) && position_taken?(board,index) != true
+   true
+ else
+ end
+end
+
 def position_taken?(board,index)
   if board[index] == "X" || board[index] == "O"
     true
