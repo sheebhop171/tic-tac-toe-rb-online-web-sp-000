@@ -98,3 +98,7 @@ def winner(board)
     nil
   end
 end
+
+def play
+    until over?(board)
+end
