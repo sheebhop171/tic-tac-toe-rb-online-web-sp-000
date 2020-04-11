@@ -52,3 +52,8 @@ def turn(board)
     turn(board)
   end
 end
+
+def turn_count(board)
+  counter = 0
+  9 - board.count(" ")
+end
