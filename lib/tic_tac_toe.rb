@@ -20,3 +20,7 @@ end
 def input_to_index(user_input)
   return user_input = user_input.to_i - 1
 end
+
+def move(array,index,value='X')
+ return array[index] = value
+end
